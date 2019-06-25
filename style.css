@@ -9,7 +9,7 @@ body{
 ul {
     list-style-type: none;
     margin: 30;
-    padding: 0;
+    padding: 30;
     overflow: hidden;
     background-color: rgba(255,0,0,0);
   }
@@ -37,13 +37,47 @@ ul {
 
 h1{
     color:white;
+    text-align: center;
+}
+
+.nav{
+    margin-inline: 8%;
+    
 }
 
 .course
 {
-    align-content:  center;
     width: 20%;
     height: 20%;
-    opacity: 0.8;
-    filter: alpha(opacity=80);
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    margin: 10px;
+}
+
+.course:hover
+{
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    background-color: darkred;
+}
+
+.courses
+{
+    
+    text-align:center;
+}
+.video
+{
+    text-align: center;
+}
+.viewMore 
+{
+    text-align: center;
+    color: gray;
+}
+
+.viewMore a:hover
+{
+    color: beige;
+    text-decoration: underline;
 }
