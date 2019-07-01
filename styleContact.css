@@ -1,0 +1,77 @@
+body{
+    height: 1200px;
+    background:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, black, black 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+    overflow: hidden;
+    background-color: rgba(255,0,0,0);
+  }
+  
+  li {
+    float: left;
+    margin-left:70px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color:darkred;
+    text-decoration: underline;
+  }
+
+.formulaire
+{
+    display: flex;
+    flex-direction: column;
+    color:white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.submit
+{
+    color: darkred;
+    width:10%;
+    margin-top: 20px;
+}
+
+form
+{  
+    text-align: center;
+
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 3em;
+    font-family: 'Bree Serif', serif;
+    margin: 10px 0 10px 50px;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, .5);
+  }  
