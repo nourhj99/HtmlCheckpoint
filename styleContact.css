@@ -100,7 +100,7 @@ form
   justify-content: center;
 }
 
-.course {
+.image{
   opacity: 1;
   display: flex;
   width: 100%;
@@ -120,7 +120,7 @@ form
   text-align: center;
 }
 
-.container1:hover .course{
+.container1:hover .image{
   opacity: 0.3;
 }
 

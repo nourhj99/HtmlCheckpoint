@@ -51,7 +51,7 @@ h1{
     justify-content: center;
    
   }
-  .image {
+  .course{
     opacity: 1;
     display: flex;
     width: 100%;
@@ -71,7 +71,7 @@ h1{
     text-align: center;
   }
   
-  .container1:hover .image {
+  .container1:hover .course{
     opacity: 0.3;
   }
   
