@@ -14,7 +14,7 @@ ul {
     background-color: rgba(255,0,0,0);
   }
   
-  li {
+li {
     float: left;
     margin-left:70px;
     font-size: 1.5em;
@@ -33,6 +33,7 @@ ul {
   
   li a:hover {
     background-color:darkred;
+    text-decoration: underline;
   }
 
 h1{
@@ -41,14 +42,59 @@ h1{
 }
 
 .nav{
-    margin-inline: 8%;
-    
+    margin-inline: 8%;  
 }
+.container1 {
+    margin: 10px;
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+   
+  }
+  .image {
+    opacity: 1;
+    display: flex;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container1:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container1:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color:gray;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .ViewMore
+  {
+    text-decoration: none;
+   color: white;
+  }
 
-.course
+ .course
 {
-    width: 20%;
-    height: 20%;
+    width: 400px;
+    height: 200%;
     opacity: 0.9;
     filter: alpha(opacity=90);
     margin: 10px;
@@ -60,12 +106,13 @@ h1{
     filter: alpha(opacity=50);
     background-color: darkred;
 }
+ 
 
 .courses
-{
-    
+{ 
+    justify-content: space-between;
     text-align:center;
-}
+} 
 .video
 {
     text-align: center;
@@ -80,4 +127,8 @@ h1{
 {
     color: beige;
     text-decoration: underline;
+}
+.white
+{
+    color:white;
 }
