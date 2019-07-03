@@ -2,12 +2,22 @@
 <html>
   <head>
      <title>Home</title>
-     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/style.css"> 
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
      
   </head>
   
   <body>
 
+      <div id="ex1" class="modal">
+          <p>This is GoMyCode Track. </p>
+          <p> Each track has its own goal. </p>
+          <p> By adopting this track, you chose your own goal.</p>
+          
+      </div>
+  
     <div>
       <ul >
           <li><img src="res/logo.png" alt="logo" width="50" height="50"></li>
@@ -20,15 +30,33 @@
     <div>
         <img src="res/homePage.png" alt="home page" width="100%">
         <br>
-          <h1 >Courses</h1>
+         
     </div>
-    <div class="courses">
-    <img src="res/AI.jpeg"alt="AI" class="course">
-    <img src="res/web.jpg" alt="Web"  class="course">
-    <img src="res/game.jpeg" alt="Gaming"  class="course">
+    <div class="courses"> 
+      <h1 >Courses</h1>
+      <div class="container1">
+           <img src="res/AI.jpeg"alt="AI" class="course ">
+          <div class="middle">
+            <div class="text"><a class="ViewMore"href="#ex1" rel="modal:open">View more</a></div>
+          </div>
+        </div>
+        <div class="container1">
+            <img src="res/web.jpg" alt="Web"  class="course">
+            <div class="middle">
+              <div class="text"><a class="ViewMore"href="#ex1" rel="modal:open">View more</a></div>
+            </div>
+
+        </div> <div class="container1">
+                <img src="res/game.jpeg" alt="Gaming"  class="course">
+              <div class="middle">
+                <div class="text"><a class="ViewMore"href="#ex1" rel="modal:open">View more</a></div>
+              </div>
+            </div>
+    
+  
   </div>
    <div class="viewMore" >
-     <a href="courses.html">View more</a>
+     <a class="white" href="courses.html">View more</a>
    </div>
     <br>
     <br>
@@ -43,6 +71,7 @@
 
   </body>
 
+<script src="js/main.js"></script>
 
 
 </html>
